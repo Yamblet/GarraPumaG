@@ -1,0 +1,94 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-define:UNITY_4_6_0
+-define:UNITY_4_6
+-define:UNITY_IPHONE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:UNITY_IPHONE_API
+-define:ENABLE_4_6_FEATURES
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:UNITY_IOS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+'Assets/CARPETA/AnimationUV.cs'
+'Assets/CARPETA/Ayuda.cs'
+'Assets/CARPETA/GameStateManager.cs'
+'Assets/CARPETA/TimeController.cs'
+'Assets/CharacterCustomization/CharacterSelected.cs'
+'Assets/CharacterCustomization/Scripts/ChangingRomm.cs'
+'Assets/CharacterCustomization/Scripts/CharacterAsset.cs'
+'Assets/CharacterCustomization/Scripts/StadiumAsset.cs'
+'Assets/CharacterCustomization/Scripts/StadiumRoom.cs'
+'Assets/DisableYamblet.cs'
+'Assets/DueloRecupera/RecuperaBalon.cs'
+'Assets/DueloRecupera/TouchLogical.cs'
+'Assets/FX Mega Pack/Scripts/SmoothCameraOrbit.cs'
+'Assets/Realistic Effects Pack/Scripts/Demo/MyGui.cs'
+'Assets/Realistic Effects Pack/Scripts/Prefabs/Balls/AddMaterialOnHit.cs'
+'Assets/Realistic Effects Pack/Scripts/Prefabs/Balls/ProjectileCollisionBehaviour.cs'
+'Assets/Realistic Effects Pack/Scripts/Prefabs/Buffs/ShieldCollisionBehaviour.cs'
+'Assets/Realistic Effects Pack/Scripts/Prefabs/Buffs/WaterUvAnimation.cs'
+'Assets/Realistic Effects Pack/Scripts/Prefabs/Buffs/WaterWaveUvAnimation.cs'
+'Assets/Realistic Effects Pack/Scripts/Prefabs/Shots/LineRendererBehaviour.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/CollisionActiveBehaviour.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/DeadTime.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/EffectSettings.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/FadeInOutLight.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/FadeInOutParticles.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/FadeInOutScale.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/FadeInOutShaderColor.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/FadeInOutShaderFloat.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/FadeInOutStatus.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/FixSlowDistortionOnMobile.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/OnStartSendCollision.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/QueueUvAnimation.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/RandomRotate.cs'
+'Assets/Realistic Effects Pack/Scripts/Share/UVTextureAnimator.cs'
+'Assets/Scene_00_MENU/Estadio3/LoadingScreen.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/AnimacionesCamara.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/DestroyCoins.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/EnemyAI.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/FPSDisplay.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/GameManager.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/GarbageCollectManager.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/ManejadoraCamara.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/SimulacionEstadio.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/coinsBehaviour.cs'
+'Assets/Scene_01_GameIntro/Scripts/Runner/movimientoPlayer.cs'
+'Assets/TimerScalers/CrazyTapping.cs'
+'Assets/TimerScalers/MainMenuActions.cs'
+'Assets/TimerScalers/TimeScaleBackToOne.cs'
+'Assets/TimerScalers/particlePlayerEmiiter.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'

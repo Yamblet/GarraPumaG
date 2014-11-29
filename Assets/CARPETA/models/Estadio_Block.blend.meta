@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: 19a3b9328f716414293a34c3f62accc6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Block_PASTO
+    100002: //RootNode
+    100004: Estadio_LP
+    100006: Estadio_LP_001
+    400000: Block_PASTO
+    400002: //RootNode
+    400004: Estadio_LP
+    400006: Estadio_LP_001
+    2300000: Block_PASTO
+    2300002: Estadio_LP
+    2300004: Estadio_LP_001
+    3300000: Block_PASTO
+    3300002: Estadio_LP
+    3300004: Estadio_LP_001
+    4300000: Estadio_LP_001
+    4300002: Estadio_LP
+    4300004: Block_PASTO
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

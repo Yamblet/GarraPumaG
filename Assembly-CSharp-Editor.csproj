@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F03CDC40-79D8-FEDB-058E-B7A8E6BC274E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GoLinear\Editor\GoLinear.cs" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\GlowAdditive.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Matrix\Additive.shader" />
+     <None Include="Assets\Realistic Effects Pack\Readme.txt" />
+     <None Include="Assets\GoLinear\Shaders\User\LinLighting.cginc" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-VertexLit.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Illumin-Parallax.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-Glossy.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullBack.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Alpha-ParallaxSpec.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Particles.shader" />
+     <None Include="Assets\GoLinear\Shaders\User\GlowAdditiveTwoColor.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Skybox.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-Parallax.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Water.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\Distortion.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-BumpSpec.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Mobile-Bumped.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Alpha-Bumped.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-Diffuse.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Mobile-Diffuse.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionParticlesCutout.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\DiffuseRimSpecular.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Mobile-BumpSpec-1DirectionalLight.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Alpha-VertexLit.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack+1.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Unlit-Alpha.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-Parallax.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Matrix\GlowAdditive.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\UnityCGGoLin.cginc" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Rim.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Unlit-Normal.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-Bumped.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\AlphaTest-Glossy.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCutOut.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\GlowAdditiveTwoColor.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Alpha-Diffuse.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\LinLighting.cginc" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullOff.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\AlphaTest-Bumped.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Sprites-Default.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\DiffuseRim.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionCullOff.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-Bumped.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Mobile-BumpSpec.shader" />
+     <None Include="Assets\CARPETA\Glow.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Illumin-BumpSpec.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Flare.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Illumin-Diffuse.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-Glossy.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Decal.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-BumpSpec.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Mobile-Lightmap-Unlit.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-BumpNolight.shader" />
+     <None Include="Assets\FX Mega Pack\FX Mega Pack - Readme.txt" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-VertexLit.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionParticles.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Lightmap-Diffuse.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionCutOutBack.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\skybox cubed.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Mobile-VertexLit-OnlyDirectionalLights.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Illumin-Glossy.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Illumin-Bumped.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Lightmap-Bumped.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Alpha-BumpSpec.shader" />
+     <None Include="Assets\GoLinear\ShadersMapping.xml" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Matrix\GlowAdditiveSimple.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Illumin-VertexLit.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Mobile-Transparent-VertexColor.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Unlit-AlphaTest.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionCutOut.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Sprites-Diffuse.shader" />
+     <None Include="Assets\GoLinear\Shaders\User\UnityCGGoLin.cginc" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-ParallaxSpec.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Alpha-Parallax.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\GlowAdditiveSimple.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Reflect-Diffuse.shader" />
+     <None Include="Assets\GoLinear\Shaders\Built-in\Alpha-Glossy.shader" />
+     <None Include="Assets\Realistic Effects Pack\Shaders\WaterFree.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="GoLinInternal">
+ <HintPath>/Users/CesarAlejandroCardenas/Desktop/GarraPuma/Assets/GoLinear/Editor/GoLinInternal.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{761484B5-74CE-6DDB-7F5C-36A1DCFB1630}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{DF57B47F-F009-ADA3-51CF-076E1862CF93}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
